@@ -8,7 +8,7 @@ The exploit doesn't rely on any hardcoded address or offset, and it should work 
 The kernel vulerabilties affect all iOS 15 versions (up to 16.0), however the sandbox escape has been fixed on iOS 15.6. As a result, breaking the exploit chain and another sandbox escape is required to get things working again on iOS 15.6/15.7.
 Although I have another sandbox escape that works up to iOS 16.1, I'm not sure if the kernel exploit techniques are still usable on iOS 15.6+.
 
-
+445566
 # Vulnerabilities:
 
 The exploit chains 4 vulnerabilities which I independently discovered and reported to Apple:
